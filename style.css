@@ -95,4 +95,19 @@ body {
               max-width: 300px;
               margin: 10px 0; 
             }
-        }
+            .profissao-div:nth-of-type(1){
+             margin: 0 auto; /* centraliza o primeiro 
+             card */
+               }
+            }
+
+            /* Para telas médias, como tablets */
+            @media (max-width): 768px) {
+                .profissão-todos {
+                    grid-template-columns: 1fr 1fr/* Duas
+                    colunas em telas médias */
+                    gap: 20px; /* Espaço entre o cards */
+                  }
+
+                }
+
